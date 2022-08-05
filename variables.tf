@@ -4,8 +4,8 @@ variable dockerhub_credentials {
 }
 
 variable codestar_connector_credentials {
-    default = "arn:aws:codestar-connections:eu-central-1:745058185994:connection/477af574-0d5a-4781-99eb-3c3845a92a49"
-    type = string
+    default = "arn:aws:codestar-connections:eu-central-1:745058185994:connection/bcb6ba19-6465-47d3-86cd-e811c02fcfd4"
+    type = stringyes
 }
 
 variable "slack_url" {
