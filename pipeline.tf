@@ -66,7 +66,7 @@ resource "aws_codepipeline" "cicd_pipeline" {
             version = "1"
             output_artifacts = [ "tf-code2" ]
             configuration = {
-                FullRepositoryId  = "TheRealTechStacker/aws-cicd-pipeline-second"
+                FullRepositoryId  = "TheRealTechStacker/aws-cicd-piepline-second"
                 BranchName = "main"
                 ConnectionArn = var.codestar_connector_credentials
                 OutputArtifactFormat = "CODE_ZIP"
